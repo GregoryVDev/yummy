@@ -59,3 +59,24 @@ h2 {
     color: var(--black);
     text-decoration: underline var(--red-highlight);
 }
+
+/* HEADER */
+
+header {
+    display: flex;
+}
+
+header img {
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+nav a {
+    border: 2px solid salmon;
+    margin-right: 10px;
+}
