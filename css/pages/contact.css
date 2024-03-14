@@ -19,3 +19,30 @@
   padding: 0 1.5rem;
   margin-top: 0;
 }
+
+@media (max-width: 768px) {
+  .contact__title {
+    /* border: 3px solid burlywood; */
+    margin: 6rem 2.5rem 0.75rem;
+  }
+
+  .contact__addressContainer {
+    /* border: 3px solid blue; */
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .contact__address {
+    /* border: 3px solid orangered; */
+    padding: 0 0;
+    margin: 0 0 0.75rem 0;
+    text-align: center;
+  }
+
+  .contact__addressTitle {
+    /* border: 3px solid green; */
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}

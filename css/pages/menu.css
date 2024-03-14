@@ -44,3 +44,51 @@
   margin-bottom: 2rem;
   line-height: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .menu {
+    /* border: 3px solid green; */
+    margin: 0;
+    align-items: center;
+  }
+
+  .menu__subtitle {
+    display: none;
+  }
+
+  .menu__card {
+    /* border: 3px solid burlywood; */
+    width: 19.5rem;
+    padding-bottom: 2rem;
+    margin-top: 2.25rem;
+  }
+
+  .menu__icon {
+    /* border: 3px solid green; */
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .menu__part {
+    /* border: 3px solid black; */
+    margin-bottom: 0;
+  }
+
+  .menu__partTitle {
+    /* border: 3px solid orangered; */
+    margin-bottom: 0.5rem;
+  }
+
+  .menu__partDish {
+    border: 3px solid yellowgreen;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .menu__dishDescription {
+    display: none;
+  }
+}

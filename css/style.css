@@ -1,19 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-
 /* Pages */
-@import 'pages/home.css';
-@import 'pages/menu.css';
-@import 'pages/contact.css';
+@import "pages/home.css";
+@import "pages/menu.css";
+@import "pages/contact.css";
 
 /* Modules */
-@import 'modules/appBar.css';
-@import 'modules/cta.css';
-@import 'modules/redBanner.css';
-@import 'modules/contactInfo.css';
-@import 'modules/footer.css';
-
+@import "modules/appBar.css";
+@import "modules/cta.css";
+@import "modules/redBanner.css";
+@import "modules/contactInfo.css";
+@import "modules/footer.css";
 
 :root {
   /* COLORS */
@@ -76,9 +74,24 @@ h2 {
 }
 
 .color-highlight {
-    color: var(--red-highlight);
+  color: var(--red-highlight);
 }
 
 /* .text-highlight {
     font-weight: var(--body-highlight-font-weight);
 } */
+
+@media (max-width: 768px) {
+  :root {
+    /* MOBILE VARIABLES */
+    --body-font-size: 1rem;
+    --body-highlight-font-size: 1rem;
+    --header-font-size: 2.5rem;
+    --title-font-size: 1.25rem;
+
+    --body-line-height: 1.25rem;
+    --body-highlight-line-height: 1.25rem;
+    --header-line-height: 3rem;
+    --title-line-height: 1.5rem;
+  }
+}
